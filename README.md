@@ -1,7 +1,9 @@
 # reactHelloWorld
 
-Set up React Environment 
+Set up React Environment
 
-Hello World renders on the DOM 
+Hello World renders on the DOM
 
 Learning to use multiple lines of jsx to render on the DOM
+
+Playing around with objects and components 
