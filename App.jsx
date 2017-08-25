@@ -8,7 +8,12 @@ height:'100%'
 };
 
 
+
 class App extends React.Component {
+hi(){
+alert('Hi!');
+}
+
 get name(){
   return 'Brett';
 }
@@ -22,6 +27,8 @@ get name(){
             alt = {helloImg.alt}
             width={helloImg.width}
             height = {helloImg.height}/>
+            <button
+              onClick={this.hi}>HI</button>
             <p>testing multiple lines of jsx</p>
             <p>this will render too</p>
             <h1>My name is {this.name}.</h1>
